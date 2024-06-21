@@ -9,9 +9,15 @@
 <body>
     <div class="container">
         <h1>Saumya Vilas Roy</h1>
-        <div class="cv-content">
-            {{ markdown | cv.md }}
-        </div>
+        <div class="cv-content" id="cv-content"></div>
+        <script src="https://cdn.jsdelivr.net/npm/marked@4.0.1/dist/marked.min.js"></script>
+        <script>
+            const markdownContent = `
+                {{ contents of cv.md file }}
+            `;
+            const htmlContent = marked(markdownContent);
+            document.getElementById('cv-content').innerHTML = htmlContent;
+        </script>
     </div>
 </body>
 </html>
