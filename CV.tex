@@ -12,12 +12,13 @@
 
 % Define a new length variable for vspace
 \newlength{\sectionvspace}
-\setlength{\sectionvspace}{-5mm} % Set the value as needed
+\setlength{\sectionvspace}{-4mm} % Set the value as needed
 
 \newlength{\sectionvspacee}
-\setlength{\sectionvspacee}{-3mm} % Set the value as needed
+\setlength{\sectionvspacee}{-2mm} % Set the value as needed
 
-
+\newlength{\sectionvspaceeq}
+\setlength{\sectionvspaceeq}{2mm} % Set the value as needed
 \begin{document}
 	
 	\begin{center}
@@ -36,7 +37,8 @@
 			
 		}
 	\end{center}
-		\vspace{\sectionvspacee}
+\begin{comment}
+			\vspace{\sectionvspacee}
 	\vspace{\sectionvspace}
 	\section*{\bf Summary}
 	\vspace{\sectionvspace}
@@ -47,6 +49,7 @@
 		\item Committed to developing innovative solutions in interdisciplinary projects
 		\item Interested in ML/DL research opportunities in health and biomedical applications
 	\end{itemize}
+\end{comment}
 	
 		\vspace{\sectionvspacee}
 	\section*{\bf Education}
@@ -55,13 +58,8 @@
 	\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
 		\item Bachelor of Technology in Electronics and Communication Engineering, \hfill \textbf{Nov 2020 - May 2024} \\
 		Indian Institute of Space Science and Technology (IIST), Kerala \hfill \textbf{GPA: 3.12}
-		\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-			
-			\item 	Advisors: Dr. Deepak Mishra (IIST), Dr. Rajesh Sadananan (IIST) and Dr. Satheesh K. (IIST) \\
-			Developed a novel method for estimating non-uniform temperature profiles in combustion systems using Laser Absorption Spectroscopy (LAS) and Multi-Output Gaussian Process Regression.
-			\item Scholarship from Department of Space, Govt. of India.
-		\end{itemize}
-		\item High School Diploma, XII (Central Board of Secondary Education), \hfill \textbf{2018 - 2020}\\
+		\vspace{\sectionvspaceeq}
+		\item High School, X+II (Central Board of Secondary Education), \hfill \textbf{2018 - 2020}\\
 		Ryan International School, New Delhi   \hfill \textbf{Percentage: 90.6 \%}
 	\end{itemize}
 	
@@ -76,18 +74,18 @@
 		Advisors: Dr. Ankur Miglani (IIT, Indore) and Dr. Husain Kanchwala (IIT, Delhi)
 		\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
 			\item Developed and implemented deep learning convolutional neural networks (CNNs) to detect damage on high-magnification images of wheat grain kernels.
-			\item Designed and deployed an AI-driven safety edge device (esp32) to prevent accidents in construction environments by detecting and alerting on unsafe behavior.
+			\item Designed and deployed an Artificial Intelligence-driven safety edge device (esp32) to prevent accidents in construction environments by detecting unsafe behavior and alerting the end-user.
 		\end{itemize}
 		
 		
 \item Summer Intern, \hfill \textbf{May 2023 - August 2023}\\
 National Remote Sensing Center (NRSC), Indian Space Research Organization (ISRO)\\
-Advisors: Dr. Mishra and Ms. Haripriya S. (NRSC)
+Advisors: Dr. Deepak Mishra (IIST) and Ms. Haripriya S. (NRSC)
 \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-	\item Developed and applied a U-net Complex Valued Neural Network for segmenting raw PolSAR images using the Pauli representation.
-	\item Analyzed the effects of different dropout rates on model overfitting and enable raw processing of PolSAR image without domain shift.
+	\item Developed and applied a U-net Complex Valued Neural Network for segmenting raw  Polarimetric Synthetic Aperture Radar (PolSAR) images using the Pauli representation.
+	\item Analyzed the effects of different dropout rates on model overfitting and enabled raw processing of PolSAR image without domain shift.
 \end{itemize}
-		
+
 \begin{comment}
 			\item Undergraduate Researcher, \hfill \textbf{Aug 2021 - May 2024} \\
 	Indian Institute of Space Science and Technology
@@ -97,48 +95,54 @@ Advisors: Dr. Mishra and Ms. Haripriya S. (NRSC)
 		Sadananan (IIST).
 		\item Collaborated with Dr. Manoj B.S. (IIST) on a Complex Network Analysis project, focusing on the OPEC Crude Oil Trade Network. Utilized graph theory to model global crude oil flows between nations, identifying key time-series trends and predicting potential fluctuations in price and demand.
 	\end{itemize}
-	\end{itemize}
+
 \end{comment}
-	
+
+		
 	\item Undergraduate Researcher, \hfill \textbf{Aug 2021 - May 2024}
 	
-	Indian Institute of Space Science and Technology
+	IIST
+
 	
 	\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+		
+			\item 	Advisors: Dr. Mishra, Dr. Rajesh Sadananan (IIST) and Dr. Satheesh K. (IIST) \\
+		Developed a novel method for estimating non-uniform temperature profiles in combustion systems using Laser Absorption Spectroscopy (LAS) and Multi-Output Gaussian Process Regression.
+		
 		\item Advisors: Dr. Marcos M. Raimundo (University of Campinas, Brazil) and Dr. Mishra
 
 		
 Developed a semi-supervised learning approach with spatial transformers for medical image registration, utilizing a hybrid dataset of real and synthetic images to reduce training data requirements.
 		\item Advisors: Dr. Sadananan and Dr. Mishra
 		
-Created a Schlieren/RGB Flame Images Analyzing Tool using FFT and Wavelet Transform to analyze time-series flame images and identify instability regions and oscillating frequencies.
+Created a Schlieren/RGB Flame Images Analyzing Tool using Fast Fourier Transform and Wavelet Transform to analyze time-series flame images and identify spatial distribution of flame or flow density oscillations during combustion instabilities.
 		\item Advisor: Dr. Manoj B.S. (IIST) 
 		
 Utilized graph theory to model global crude oil flows between nations, identifying key time-series trends and predicting potential fluctuations in price and demand accurately over time.
 		
 	\end{itemize}
+					\end{itemize}
 	
-	
-		\section*{\bf First-Author Publications}
+		\section*{\bf Publications}
 	\vspace{\sectionvspace}
 	\rule{\textwidth}{0.4pt}
 	\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
 		
 		
-		\item \textbf{Saumya Vilas Roy*}, Husain Kanchwala \& Ankur Miglani. Deep CNN-based damage classification of milled wheat grains using a high-magnification image dataset. (Manuscript in preparation).
+		\item \textbf{Saumya Vilas Roy}, Husain Kanchwala \& Ankur Miglani. Deep CNN-based damage classification of milled wheat grains using a high-magnification image dataset. (Manuscript in preparation).
 		
-		\item  \textbf{Saumya Vilas Roy*}, Deepak Mishra \& Marcos M. Raimundo. HybridMorph: Bridging the Gap between Synthetic and Real Data for Accurate MR Image Registration. (Manuscript in preparation).
+		\item  \textbf{Saumya Vilas Roy}, Deepak Mishra \& Marcos M. Raimundo. HybridMorph: Bridging the Gap between Synthetic and Real Data for Accurate MR Image Registration. (Manuscript in preparation).
 		
-		\item \textbf{Saumya Vilas Roy*}, Deepak Mishra, Satheesh K. \& Rajesh Sadananan. Estimating Non-Uniform Temperature Profiles in Combustion Systems using Laser Absorption Spectroscopy and Multi-Output Gaussian Process Regression. (Manuscript in preparation).
+		\item \textbf{Saumya Vilas Roy}, Deepak Mishra, Satheesh K. \& Rajesh Sadananan. Estimating Non-Uniform Temperature Profiles in Combustion Systems using Laser Absorption Spectroscopy and Multi-Output Gaussian Process Regression. (Manuscript in preparation).
 		
-		\item \textbf{Saumya Vilas Roy*}, Deepak Mishra \& Rajesh Sadananan (2025). Combined FFT and Wavelet Analysis of Schlieren and Flame Luminosity Time-Series to Visualize Regions of Combustion Instability. (Accepted NAPC 2025).
+		\item \textbf{Saumya Vilas Roy}, Deepak Mishra \& Rajesh Sadananan (2025). Combined FFT and Wavelet Analysis of Schlieren and Flame Luminosity Time-Series to Visualize Regions of Combustion Instability. (Accepted to be published: National Aerospace Propulsion Conference 2025).
 		
-		\item \textbf{Saumya Vilas Roy*}, \& Manoj BS. (2024). A Complex Network Analysis of the OPEC Crude Oil Trade Network. \href{https://doi.org/10.36227/techrxiv.171169316.66809297/v2}{DOI: 10.36227/techrxiv.171169316.66809297/v2}. (RAICS 2024).
+		\item \textbf{Saumya Vilas Roy}, \& Manoj BS. (2024). A Complex Network Analysis of the OPEC Crude Oil Trade Network. \href{https://doi.org/10.36227/techrxiv.171169316.66809297/v2}{DOI: 10.36227/techrxiv.171169316.66809297/v2}. (Recent Advances in Intelligent Computational Systems International Conference 2024).
 		
 	\end{itemize}
 	
 	\vspace{\sectionvspacee}
-\section*{\bf Skills}
+\section*{\bf Technical Skills}
 \vspace{\sectionvspace}
 \rule{\textwidth}{0.4pt}
 \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
@@ -153,47 +157,51 @@ Utilized graph theory to model global crude oil flows between nations, identifyi
 \vspace{\sectionvspace}
 \rule{\textwidth}{0.4pt}
 \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-	\item \textbf{3rd} position in student's flash talks at Frontiers symposium in Data science 2024, IISER Trivandrum.
+	\item \textbf{3rd} place in the student's flash talks at the Frontiers Symposium in Data Science 2024, IISER Trivandrum.
 	\item Top \textbf{2\%} in the Joint Entrance Examination (JEE) Main and Advanced, a highly competitive national-level engineering entrance examination in India.
-	\item \textbf{1st} position in Tinker Fest 2018 organized by ATAL tinkering labs for the project "Algae Based Air Purifier and Quality Sensor" at Ryan International School.
+	\item \textbf{1st} place in Tinker Fest 2018 organized by ATAL tinkering labs for the project "Algae Based Air Purifier and Quality Sensor" at Ryan International School.
+				\item Scholarship from Department of Space, Govt. of India for undergraduate studies at IIST.
 \end{itemize}
 		\vspace{\sectionvspacee}
 
 	
 	\vspace{\sectionvspacee}	
-\section*{\bf Presentations}
+\section*{\bf Conference Presentations}
 \vspace{\sectionvspace}% Adjust the value as needed
 \rule{\textwidth}{0.4pt}
 \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
 	\item "Complex Valued U-Net for Segmentation of PolSAR Images", ISG-ISRS 2023.
-	\item "Meta-Learning for Space Applications for Advancements in Space Technology", Hindi Technical Conference 2023, IIST organized by Indian Space Research Organization (ISRO).
+	\item "Meta-Learning for Space Applications for Advancements in Space Technology", Hindi Technical Conference 2023, held at IIST organized by the Indian Space Research Organization (ISRO).
 \end{itemize}
 
 	\vspace{\sectionvspacee}
-\section*{\bf References}
-\vspace{\sectionvspace}% Adjust the value as needed
-\rule{\textwidth}{0.4pt}
-\begin{itemize}[noitemsep,topsep=0pt]
-	\item \textbf{Husain Kanchwala}
+
+\begin{comment}
+	\section*{\bf References}
+	\vspace{\sectionvspace}% Adjust the value as needed
+	\rule{\textwidth}{0.4pt}
 	\begin{itemize}[noitemsep,topsep=0pt]
-		\item \textbf{Title:} Assistant Professor, Center for Automotive Research and Tribology, IIT Delhi, India
-		\item \textbf{Email:} \href{mailto:husaink@iitd.ac.in}{husaink@iitd.ac.in}
-		\item \textbf{Phone:} +91-112-6548571
+		\item \textbf{Husain Kanchwala}
+		\begin{itemize}[noitemsep,topsep=0pt]
+			\item \textbf{Title:} Assistant Professor, Center for Automotive Research and Tribology, IIT Delhi, India
+			\item \textbf{Email:} \href{mailto:husaink@iitd.ac.in}{husaink@iitd.ac.in}
+			\item \textbf{Phone:} +91-112-6548571
+		\end{itemize}
+		
+		\item \textbf{Deepak Mishra}
+		\begin{itemize}[noitemsep,topsep=0pt]
+			\item \textbf{Title:} Professor, Department of Avionics, IIST, India
+			\item \textbf{Email:} \href{mailto:deepak.mishra@iist.ac.in}{deepak.mishra@iist.ac.in}
+			\item \textbf{Phone:} +91-471-2568583
+		\end{itemize}
+		
+		\item \textbf{Marcos M. Raimundo}
+		\begin{itemize}[noitemsep,topsep=0pt]
+			\item \textbf{Title:} Assistant Professor, Institute of Computing, University of Campinas, Brazil
+			\item \textbf{Email:} \href{mailto:mraimundo@ic.unicamp.br}{mraimundo@ic.unicamp.br}
+			\item \textbf{Phone:} +55-19-35210322
+		\end{itemize}
 	\end{itemize}
-	
-	\item \textbf{Deepak Mishra}
-	\begin{itemize}[noitemsep,topsep=0pt]
-		\item \textbf{Title:} Professor, Department of Avionics, IIST, India
-		\item \textbf{Email:} \href{mailto:deepak.mishra@iist.ac.in}{deepak.mishra@iist.ac.in}
-		\item \textbf{Phone:} +91-471-2568583
-	\end{itemize}
-	
-	\item \textbf{Marcos M. Raimundo}
-	\begin{itemize}[noitemsep,topsep=0pt]
-		\item \textbf{Title:} Assistant Professor, Institute of Computing, University of Campinas, Brazil
-		\item \textbf{Email:} \href{mailto:mraimundo@ic.unicamp.br}{mraimundo@ic.unicamp.br}
-		\item \textbf{Phone:} +55-19-35210322
-	\end{itemize}
-\end{itemize}
+\end{comment}
 	
 \end{document}
