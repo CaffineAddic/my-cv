@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1733720994.26382 "/home/saumya/Documents/my-cv/CV.tex" "CV.pdf" "CV" 1733720995.01643 0
-  "/home/saumya/Documents/my-cv/CV.tex" 1733720993.1888 11195 2808564af4cd4571735db89d023cb345 ""
+["pdflatex"] 1733721287.76871 "/home/saumya/Documents/my-cv/CV.tex" "CV.pdf" "CV" 1733721288.48603 0
+  "/home/saumya/Documents/my-cv/CV.tex" 1733721286.75073 11194 515f5025a80c4fd0dae84aab162e23f2 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1727349926 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1727349926 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1727349926 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -62,9 +62,9 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1727349926 41588 b43d3e860a4f94167ee1e725ff526a72 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1733647135.76277 5467607 1f3b9843102088c2a7136e28f005c5e4 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1733647112 8555711 46c4f75d7d834a1c89d12cbd9675529f ""
-  "CV.aux" 1733720994.93558 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "CV.out" 1733720994.78223 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "CV.tex" 1733720993.1888 11195 2808564af4cd4571735db89d023cb345 ""
+  "CV.aux" 1733721288.42417 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "CV.out" 1733721288.27416 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "CV.tex" 1733721286.75073 11194 515f5025a80c4fd0dae84aab162e23f2 ""
   (generated)
   "CV.aux"
   "CV.log"
